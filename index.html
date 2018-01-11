@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <title>DATING SITE WOOO~!</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- TITLE -->
+      <div class="jumbotron">
+        <h1>DATING SITE</h1>
+      </div>
+      <form id="form">
+        <div class="form-group">
+
+          <h6>Are you interested in:</h6>
+          <select class="form-control" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="no-matter">Whatevs</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <h6>Political Affiliation:</h6>
+          <select class="form-control" id="political">
+            <option value="demo">Democrat</option>
+            <option value="repub">Republican</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h6> Age Preference: </h6>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="1830">
+              18-30
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="3050">
+              30-50
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="50">
+              50+
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <h6>What matters more: </h6>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bobr" value="body">
+              Body
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bobr" value="brain">
+              Brain
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bobr" value="no-matter">
+              Whatever Brah
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="row" id="prospectMateRow">
+        <div class="col-md-3 male demo 1830 body" id="efron">
+          <h2>Zac Efron</h2>
+          <img src="img/efron.jpg" alt="This is a picture of Zac Efron">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 male demo 1830 brain" id="cera">
+          <h2>Michael Cera</h2>
+          <img src="img/cera.jpg" alt="This is a picture of Michael Cera">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 male demo 3050 brain" id="childish">
+          <h2>Childish Gambino</h2>
+          <img src="img/childish.jpg" alt="This is a picture of Childish Gambino">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 male demo 3050 body" id="justin">
+          <h2>Justin Trudeau</h2>
+          <img src="img/justin.jpg" alt="This is a picture of Justin Trudeau">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 male demo 50 brain" id="sanders">
+          <h2>Bernie Sanders</h2>
+          <img src="img/sanders.jpg" alt="This is a picture of Bernie Sanders">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 male repub 50" id="trump">
+          <h2>Donald Trump</h2>
+          <img src="img/trump.jpg" alt="This is a picture of Donald Trump">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 female demo 1830 body" id="rickards">
+          <h2>Emily Bett Rickards</h2>
+          <img src="img/rickards.jpg" alt="This is a picture of Emily Bett Rickards">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 female demo 1830 brain" id="watson">
+          <h2>Emma Watson</h2>
+          <img src="img/watson.jpg" alt="This is a picture of Emma Watson">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 female demo 3050 body" id="jlo">
+          <h2>Jennifer Lopez</h2>
+          <img src="img/jlo.jpg" alt="This is a picture of Jennifer Lopez">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 female demo 3050 brain" id="harris">
+          <h2>Kamala Harris</h2>
+          <img src="img/harris.jpg" alt="This is a picture of Kamala Harris">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 female demo 50 brain" id="clinton">
+          <h2>Hillary Clinton</h2>
+          <img src="img/clinton.jpg" alt="This is a picture of Hillary Clinton">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-3 female repub 50" id="palin">
+          <h2>Sarah Palin</h2>
+          <img src="img/palin.jpg" alt="This is a picture of Sarah Palin">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </body>
+</html>
