@@ -15,70 +15,71 @@
         <h1>DATING SITE</h1>
       </div>
       <form id="form">
-        <div class="form-group">
+        <div class="form-group" id="genderGroup">
 
           <h6>Are you interested in:</h6>
           <select class="form-control" id="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="no-matter">Whatevs</option>
+            <option value=".male">Male</option>
+            <option value=".female">Female</option>
+            <option value=".no-matter">Whatevs</option>
           </select>
         </div>
 
-        <div class="form-group">
+        <div class="form-group" id="politicalGroup">
           <h6>Political Affiliation:</h6>
           <select class="form-control" id="political">
-            <option value="demo">Democrat</option>
-            <option value="repub">Republican</option>
+            <option value=".demo">Democrat</option>
+            <option value=".repub">Republican</option>
           </select>
         </div>
-        <div class="form-group">
+        <div class="form-group" id="ageGroup">
           <h6> Age Preference: </h6>
           <div class="radio">
             <label>
-              <input type="radio" name="age" value="1830">
+              <input type="radio" name="age" value=".1830">
               18-30
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="age" value="3050">
+              <input type="radio" name="age" value=".3050">
               30-50
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="age" value="50">
+              <input type="radio" name="age" value=".50">
               50+
             </label>
           </div>
         </div>
-        <div class="form-group">
+        <div class="form-group" id="bobrGroup">
           <h6>What matters more: </h6>
           <div class="radio">
             <label>
-              <input type="radio" name="bobr" value="body">
+              <input type="radio" name="bobr" value=".body">
               Body
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="bobr" value="brain">
+              <input type="radio" name="bobr" value=".brain">
               Brain
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="bobr" value="no-matter">
+              <input type="radio" name="bobr" value=".no-matter">
               Whatever Brah
             </label>
           </div>
         </div>
         <button type="submit" class="btn">Submit</button>
+        <div id="restart"><p>Restart</p></div>
       </form>
     </div>
 
-    <div class="container">
+    <div class="container-flex">
       <div class="row" id="prospectMateRow">
         <div class="col-md-3 male demo 1830 body" id="efron">
           <h2>Zac Efron</h2>
